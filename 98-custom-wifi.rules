@@ -1,2 +1,2 @@
-ACTION=="add", SUBSYSTEM=="net", ATTR{type}=="1", RUN+="/home/radxa/scripts/autoload-wfb-nics.sh"
-ACTION=="remove", SUBSYSTEM=="usb", RUN+="/home/radxa/scripts/autoload-wfb-nics.sh"
+ACTION=="add", SUBSYSTEM=="net", ATTR{type}=="1", RUN+="/config/scripts/autoload-wfb-nics.sh"
+ACTION=="remove", SUBSYSTEM=="usb", RUN+="/config/scripts/autoload-wfb-nics.sh"
