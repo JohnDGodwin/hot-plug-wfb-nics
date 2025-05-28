@@ -1,6 +1,5 @@
 [Unit]
 Description=Rename Wireless Interface
-After=network.target
 
 [Service]
 ExecStart=/config/scripts/autoload-wfb-nics.sh
